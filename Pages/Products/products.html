@@ -1,0 +1,82 @@
+<!-- Document type declaration -->
+<!DOCTYPE html>
+<!-- Start of the HTML document with English as the language -->
+<html lang="en">
+<head>
+    <!-- Set character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set page title and link to stylesheet -->
+    <title>Gifts4U - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include script file with defer attribute -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Header section with site title and navigation -->
+        <h1>Gifts4U - Local Gift Delivery Service</h1>
+        <nav>
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="../About/about.html">About</a></li>
+                <li><a href="../Contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="featured-products">
+        <!-- Section for featured products -->
+        <h2>Chocolates and Sweets</h2>
+        <div class="product-container">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="posters">
+        <!-- Section for posters -->
+        <h2>Posters</h2>
+        <div class="product-container">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="crafts">
+        <!-- Section for crafts -->
+        <h2>Crafts</h2>
+        <div class="product-container">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="delivery-request">
+        <!-- Section for delivery request form -->
+        <h2>Delivery Request Form</h2>
+        <form id="delivery-request-form">
+            <!-- Form for submitting delivery requests -->
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="contact-number" required>
+            <label for="delivery-address">Delivery Address:</label>
+            <textarea id="delivery-address" name="delivery-address" rows="4" required></textarea>
+            <label for="billing-address">Billing Address:</label>
+            <textarea id="billing-address" name="billing-address" rows="4" required></textarea>
+            <label for="items-to-deliver">Items to Deliver:</label>
+            <textarea id="items-to-deliver" name="items-to-deliver" rows="4" required></textarea>
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature" required>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Footer section with copyright information -->
+        <p>&copy; 2024 Gifts4U. All rights reserved.</p>
+    </footer>
+</body>
+</html>
