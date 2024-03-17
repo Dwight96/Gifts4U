@@ -16,6 +16,9 @@ header {
 /* Style the navigation menu */
 nav ul {
     list-style: none; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the list items */
 }
 
 nav ul li {
@@ -23,6 +26,9 @@ nav ul li {
     margin-right: 20px; 
 }
 
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
 nav ul li a {
     color: #333; 
     text-decoration: none; 
